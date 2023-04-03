@@ -1,0 +1,139 @@
+body {
+
+	font-family: Helvetica;
+	background: rgb(255, 244, 224);
+	font-size: 16px;
+
+}  
+
+h1, h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+
+	color: rgb(122, 62, 101);
+}
+
+h2 {
+
+	color: rgb(168, 68, 72);
+}
+
+p { 
+
+	color: rgb(240, 153, 125);
+	font-weight: 550;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+
+}
+a {
+	font-weight: bold;
+	color: rgb(122, 62, 101);
+
+
+ }
+a:hover {
+	color: blueviolet;
+}
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+	background: rgb(255, 244, 224);
+
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 400px ;
+	}
+}
+
+.btn-purple {
+	background-color: rgb(122, 62, 101);
+	color: white;
+	padding: 8px 20px;
+	border-radius: 5px;
+
+}
+
+#btn-spacing p {
+ margin-bottom: 3px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-inline: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+.div-middle {
+background-color:rgb(255, 242, 204); 
+  height: 80px;
+  width: 700px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.div-bottom {
+	background-color:rgb(255, 242, 204); 
+  height: 120px;
+  width: 700px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.div-top {
+
+	background-color:rgb(255, 242, 204); 
+  width: 700px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-peach i {
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.card-peach {
+  background-color:rgb(255, 242, 204); 
+  height: 190px;
+  width: 700px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+
+
+
+
